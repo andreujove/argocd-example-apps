@@ -14,7 +14,8 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-        - image: hashicorp/http-echo:latest
+        - image: kodekloud/webapp-color:v2
           name: guestbook-ui
           ports:
-            - containerPort: 80
+            - containerPort: 8080
+          args: ["--color", "darkblue"]
