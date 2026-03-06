@@ -18,4 +18,4 @@ spec:
           name: guestbook-ui
           ports:
             - containerPort: 8080
-          args: ["--color", "darkblue"]
+          args: ["--color", "green"]
