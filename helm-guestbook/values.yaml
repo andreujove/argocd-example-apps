@@ -5,9 +5,9 @@
 replicaCount: 1
 
 image:
-  repository: gcr.io/google-samples/gb-frontend
-  tag: v5
-  pullPolicy: IfNotPresent
+  repository: kodekloud/webapp-color
+  tag: v2
+  pullPolicy: Always
 
 containerPort: 80
 
